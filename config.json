@@ -1,0 +1,26 @@
+{
+    "inited": false,
+    "images_path": {
+        "pjsk": "image1",
+        "touhou": "image2",
+        "ATRI": "image3"
+    },
+    "groups_id": [
+        "348244932",
+        "922893208"
+    ],
+    "348244932": {
+        "pjsk": true,
+        "downloadbv": true,
+        "info_bvideo_words": 120,
+        "touhou": true,
+        "ATRI": true
+    },
+    "922893208": {
+        "pjsk": true,
+        "downloadbv": true,
+        "info_bvideo_words": 120,
+        "touhou": true,
+        "ATRI": true
+    }
+}

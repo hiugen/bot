@@ -1,0 +1,460 @@
+[2025-12-01 09:57:50,302.302] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-01 09:57:50,306.306] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-12-01 09:57:50,309.309] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-12-01 09:57:50,765.765] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-01 09:57:50,766.766] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-12-01 09:57:50,768.768] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-01 09:57:50,769.769] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-01 09:57:50,813.813] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-12-01 09:57:50,837.837] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-12-01 09:57:52,387.387] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-12-01 09:57:55,403.403] WARNING  [Thread-18 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-12-01 09:57:55,404.404] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-12-01 09:57:55,458.458] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录列表: ['2368017024']
+[2025-12-01 09:57:55,459.459] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 正在发送快速登录请求...
+[2025-12-01 09:57:55,461.461] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:warning:139) | 快速登录请求失败: {'code': -1, 'message': '登录态已失效，请重新登录。'}
+[2025-12-01 09:57:55,663.663] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 二维码对应的 QQ 号: 2368017024
+[2025-12-01 09:58:25,671.671] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:warning:139) | 二维码即将失效, 请尽快扫码登录
+[2025-12-01 09:58:34,256.256] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 登录成功
+[2025-12-01 09:58:34,264.264] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接 napcat websocket 服务器成功!
+[2025-12-01 09:58:34,264.264] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 连接成功
+[2025-12-01 09:58:34,267.267] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-01 09:58:34,267.267] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-12-01 09:59:12,850.850] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-01 09:59:26,683.683] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 10:46:12,782.782] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-178' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 10:52:02,058.058] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-236' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 12:19:50,825.825] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-453' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 12:21:38,069.069] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-493' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 16:40:52,382.382] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-01 16:40:52,383.383] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-12-01 16:40:52,388.388] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-12-01 16:40:53,270.270] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-01 16:40:53,271.271] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-12-01 16:40:53,275.275] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-01 16:40:53,276.276] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-01 16:40:53,344.344] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-12-01 16:40:53,378.378] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-12-01 16:40:54,952.952] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-12-01 16:40:56,470.470] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-12-01 16:40:56,474.474] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-01 16:40:56,475.475] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-12-01 16:45:09,654.654] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 16:45:09,684.684] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-01 16:45:20,993.993] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 16:47:31,451.451] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-68' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 16:52:37,862.862] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-123' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 16:55:22,412.412] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-204' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:29:50,881.881] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-317' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:29:52,172.172] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-326' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:33:13,704.704] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-351' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:33:28,833.833] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-369' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:47:49,193.193] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-497' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:48:03,855.855] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-515' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:48:08,413.413] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-533' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:51:24,426.426] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-576' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 17:56:03,713.713] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-621' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:26:19,411.411] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-770' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:26:51,256.256] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-807' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:27:15,958.958] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-835' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:28:06,296.296] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-846' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:28:08,375.375] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-855' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:29:22,777.777] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-893' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:32:21,046.046] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1016' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:33:21,790.790] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1036' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:33:43,058.058] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1064' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:40:26,920.920] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1249' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:48:10,399.399] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1363' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 18:52:10,217.217] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1438' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:36:03,023.023] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1543' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:36:48,597.597] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1581' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:38:24,197.197] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1728' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:38:58,164.164] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1792' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:39:24,132.132] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1829' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:40:37,260.260] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1871' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:40:37,925.925] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1880' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:40:37,946.946] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1889' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:42:31,269.269] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1929' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:44:00,129.129] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2004' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:45:26,363.363] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2034' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:46:00,456.456] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2080' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:47:12,319.319] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2109' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 19:50:29,030.030] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2134' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 20:18:50,584.584] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2226' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 20:44:54,523.523] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2314' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 21:34:16,180.180] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2422' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 21:37:13,193.193] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2481' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 21:38:17,870.870] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2493' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 21:38:39,560.560] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2502' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 94, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-12-01 21:56:08,158.158] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-12-01 21:56:08,179.179] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-12-01 21:56:08,182.182] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-12-01 21:56:08,192.192] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-12-01 21:56:11,340.340] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-01 21:56:11,340.340] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-12-01 21:56:11,344.344] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-12-01 21:56:12,146.146] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-01 21:56:12,147.147] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-12-01 21:56:12,151.151] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-01 21:56:12,152.152] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-01 21:56:12,243.243] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-12-01 21:56:12,298.298] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-01 21:56:12,299.299] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-12-01 21:58:15,862.862] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']

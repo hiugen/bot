@@ -1,0 +1,1703 @@
+[2025-11-29 08:23:07,055.055] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:23:07,061.061] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3053475492 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:23:07,080.080] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:23:07,900.900] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:23:07,901.901] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:23:07,906.906] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:23:07,907.907] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:23:07,981.981] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:23:08,024.024] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 08:23:09,633.633] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 08:23:12,691.691] WARNING  [Thread-18 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:23:12,692.692] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-11-29 08:23:12,853.853] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 快速登录列表: ['3053475492']
+[2025-11-29 08:23:12,855.855] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 正在发送快速登录请求...
+[2025-11-29 08:23:12,858.858] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:warning:139) | 快速登录请求失败: {'code': -1, 'message': '登录态已失效，请重新登录。'}
+[2025-11-29 08:23:13,068.068] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | 二维码对应的 QQ 号: 3053475492
+[2025-11-29 08:23:43,082.082] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:warning:139) | 二维码即将失效, 请尽快扫码登录
+[2025-11-29 08:24:13,082.082] ERROR    [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:error:134) | 登录超时, 请重新操作, 如果无法扫码, 请在 webui 登录
+[2025-11-29 08:24:13,083.083] ERROR    [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:error:134) | 生成 ASCII 二维码时出错: 登录超时
+[2025-11-29 08:24:13,092.092] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:info:129) | Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/adapter/nc/login.py", line 231, in _qrcode_login
+    raise TimeoutError("登录超时")
+TimeoutError: 登录超时
+
+[2025-11-29 08:28:07,372.372] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:28:07,372.372] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 3053475492 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:28:07,377.377] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:28:08,201.201] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:28:08,201.201] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:28:08,205.205] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:28:08,206.206] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:28:08,271.271] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:28:08,300.300] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | NapCat 已启动
+[2025-11-29 08:28:11,386.386] WARNING  [Thread-18 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:28:11,388.388] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 登录中...
+[2025-11-29 08:28:11,439.439] ERROR    [MainThread|MainProcess] ncatbot.core.adapter.nc.login (logger.py:error:134) | 登录状态异常, 请物理重启本机
+[2025-11-29 08:29:35,507.507] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:29:35,507.507] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:29:35,512.512] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:29:36,330.330] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:29:36,331.331] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:29:36,336.336] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:29:36,337.337] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:29:36,405.405] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:29:36,407.407] WARNING  [MainThread|MainProcess] ncatbot.core.adapter.nc.config (logger.py:warning:139) | 解析合并转发消息配置不匹配, 将修改为 NcatBot 配置的配置: True
+[2025-11-29 08:29:36,467.467] WARNING  [MainThread|MainProcess] adapter.nc.start (logger.py:warning:139) | NapCat 正在运行, 但运行的不是该 QQ 号
+[2025-11-29 08:30:44,367.367] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:30:44,367.367] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:30:44,372.372] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:30:45,146.146] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:30:45,147.147] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:30:45,151.151] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:30:45,151.151] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:30:45,217.217] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:30:45,273.273] WARNING  [MainThread|MainProcess] adapter.nc.start (logger.py:warning:139) | NapCat 正在运行, 但运行的不是该 QQ 号
+[2025-11-29 08:31:16,143.143] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 08:31:16,144.144] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 08:31:16,152.152] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 08:31:17,998.998] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:31:17,998.998] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:31:18,003.003] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:31:18,772.772] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:31:18,773.773] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:31:18,776.776] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:31:18,777.777] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:31:18,836.836] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 08:31:18,894.894] WARNING  [MainThread|MainProcess] adapter.nc.start (logger.py:warning:139) | NapCat 正在运行, 但运行的不是该 QQ 号
+[2025-11-29 08:31:24,305.305] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 已成功停止 napcat
+[2025-11-29 08:31:24,306.306] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 08:31:25,919.919] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 08:31:26,937.937] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-11-29 08:31:26,940.940] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 08:31:26,943.943] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 08:32:26,946.946] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 08:32:51,400.400] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 87, in setting_by_group
+    if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
+IndexError: list index out of range
+[2025-11-29 08:33:57,480.480] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 08:33:57,497.497] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 08:33:57,499.499] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 08:33:57,512.512] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 08:37:07,388.388] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 08:37:07,388.388] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 08:37:07,393.393] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 08:37:08,169.169] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 08:37:08,170.170] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 08:37:08,174.174] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 08:37:08,175.175] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 08:37:08,245.245] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 08:37:08,315.315] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 08:37:08,317.317] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 08:37:15,532.532] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 88, in setting_by_group
+    if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
+IndexError: list index out of range
+[2025-11-29 08:37:15,550.550] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 08:57:35,307.307] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 08:57:35,324.324] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 08:57:35,325.325] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 08:57:35,378.378] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 09:57:32,435.435] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 09:57:32,435.435] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 09:57:32,440.440] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 09:57:33,352.352] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 09:57:33,353.353] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 09:57:33,359.359] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 09:57:33,361.361] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 09:57:33,465.465] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 09:57:33,516.516] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 09:57:33,517.517] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 09:57:40,862.862] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 09:57:40,864.864] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
+[2025-11-29 09:57:40,864.864] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-23' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError('消息体无法解析, 请检查是否发送了不支持的消息类型')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 118, in download_video
+    await bot.api.post_group_msg(msg.group_id,text=info)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
+[2025-11-29 09:57:50,570.570] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 09:57:50,578.578] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 09:57:50,580.580] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 09:57:50,589.589] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 09:58:53,506.506] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 09:58:53,506.506] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 09:58:53,515.515] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 09:58:54,352.352] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 09:58:54,353.353] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 09:58:54,357.357] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 09:58:54,358.358] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 09:58:54,429.429] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 09:58:54,481.481] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 09:58:54,482.482] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 09:58:58,129.129] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 09:58:58,131.131] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
+[2025-11-29 09:58:58,132.132] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError('消息体无法解析, 请检查是否发送了不支持的消息类型')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 118, in download_video
+    await bot.api.post_group_msg(msg.group_id,text=info)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
+[2025-11-29 09:59:33,691.691] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 09:59:33,691.691] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 09:59:33,700.700] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 09:59:35,052.052] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 09:59:35,054.054] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 09:59:35,063.063] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 09:59:35,066.066] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 09:59:35,185.185] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 09:59:35,243.243] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 09:59:35,245.245] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:01:22,426.426] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:01:55,748.748] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:01:55,749.749] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:01:55,753.753] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:01:56,561.561] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:01:56,562.562] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:01:56,567.567] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:01:56,568.568] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:01:56,639.639] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:01:56,693.693] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:01:56,694.694] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:02:03,453.453] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:02:45,928.928] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:02:45,940.940] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:02:45,941.941] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:02:45,951.951] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:02:50,693.693] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:02:50,693.693] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:02:50,698.698] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:02:51,599.599] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:02:51,601.601] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:02:51,608.608] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:02:51,610.610] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:02:51,710.710] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:02:51,763.763] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:02:51,764.764] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:03:02,029.029] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:03:46,783.783] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-28' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 77, in debug_by_group_msg
+    print(msg.message.filter(Text)[0].text)
+IndexError: list index out of range
+[2025-11-29 10:04:37,478.478] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:04:37,487.487] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:04:37,487.487] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:04:37,493.493] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:04:39,334.334] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:04:39,334.334] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:04:39,339.339] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:04:40,202.202] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:04:40,203.203] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:04:40,206.206] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:04:40,207.207] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:04:40,283.283] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:04:40,337.337] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:04:40,339.339] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:04:49,248.248] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 80, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 10:04:49,270.270] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:14:58,844.844] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:14:58,857.857] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:14:58,858.858] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:14:58,867.867] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:15:13,871.871] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:15:13,872.872] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:15:13,876.876] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:15:14,791.791] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:15:14,793.793] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:15:14,800.800] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:15:14,801.801] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:15:14,882.882] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:15:14,939.939] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:15:14,940.940] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:16:15,786.786] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-21' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 80, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 10:16:15,815.815] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:16:51,893.893] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:16:51,911.911] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:16:51,912.912] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:16:51,928.928] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:32:33,388.388] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:32:33,389.389] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:32:33,395.395] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:32:34,359.359] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:32:34,361.361] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:32:34,366.366] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:32:34,367.367] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:32:34,439.439] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:32:34,496.496] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:32:34,497.497] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:36:09,578.578] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:36:17,199.199] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=KeyError('images_path')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 97, in random_image
+    for keyword  in config["images_path"]:
+KeyError: 'images_path'
+[2025-11-29 10:37:05,579.579] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-45' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=KeyError('images_path')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 97, in random_image
+    for keyword  in config["images_path"]:
+KeyError: 'images_path'
+[2025-11-29 10:37:11,788.788] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:37:11,803.803] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:37:11,806.806] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:37:11,815.815] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:37:15,668.668] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:37:15,669.669] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:37:15,674.674] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:37:16,492.492] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:37:16,494.494] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:37:16,498.498] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:37:16,499.499] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:37:16,568.568] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:37:16,617.617] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:37:16,618.618] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:37:19,207.207] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:47:47,979.979] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/c0d15db0-8bbd-4f2b-9029-a40a96f44234'
+[2025-11-29 10:47:47,983.983] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-77' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/c0d15db0-8bbd-4f2b-9029-a40a96f44234'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 99, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=loadimage.random_image(config["images_path"][keyword]))
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/c0d15db0-8bbd-4f2b-9029-a40a96f44234'
+[2025-11-29 10:47:56,312.312] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-84' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 88, in setting_by_group
+    if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
+IndexError: list index out of range
+[2025-11-29 10:48:06,409.409] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/4b92ed4d-0670-4f4f-86a2-fc7b7d6ecaff'
+[2025-11-29 10:48:06,410.410] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-99' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/4b92ed4d-0670-4f4f-86a2-fc7b7d6ecaff'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 99, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=loadimage.random_image(config["images_path"][keyword]))
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/4b92ed4d-0670-4f4f-86a2-fc7b7d6ecaff'
+[2025-11-29 10:51:15,190.190] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/77771eef-d349-4553-bcfd-a00798d641fc'
+[2025-11-29 10:51:15,191.191] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-140' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/77771eef-d349-4553-bcfd-a00798d641fc'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 99, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=loadimage.random_image(config["images_path"][keyword]))
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/77771eef-d349-4553-bcfd-a00798d641fc'
+[2025-11-29 10:51:50,525.525] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/3b86c31a-e8de-4e43-a4ef-f343434585ab'
+[2025-11-29 10:51:50,526.526] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-177' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/3b86c31a-e8de-4e43-a4ef-f343434585ab'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 99, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=loadimage.random_image(config["images_path"][keyword]))
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/data' -> '/root/.config/QQ/NapCat/temp/3b86c31a-e8de-4e43-a4ef-f343434585ab'
+[2025-11-29 10:53:54,484.484] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/afa7566a-2fbf-4917-af8a-cd0f4c848b8f'
+[2025-11-29 10:53:54,486.486] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-230' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/afa7566a-2fbf-4917-af8a-cd0f4c848b8f'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 99, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=loadimage.random_image(config["images_path"][keyword]))
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/afa7566a-2fbf-4917-af8a-cd0f4c848b8f'
+[2025-11-29 10:55:10,153.153] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:55:10,163.163] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 10:55:10,164.164] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 10:55:10,171.171] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 10:55:11,967.967] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:55:11,967.967] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:55:11,971.971] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:55:12,785.785] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:55:12,787.787] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:55:12,791.791] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:55:12,792.792] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:55:11,761.761] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:55:11,813.813] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:55:11,815.815] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:55:14,390.390] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 10:55:26,652.652] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/423d0b29-bd2e-452d-ad6c-4c314110a9f8'
+[2025-11-29 10:55:26,653.653] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-35' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/423d0b29-bd2e-452d-ad6c-4c314110a9f8'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 101, in random_image
+    await bot.api.post_group_msg(msg.group_id, image=image)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin/image1/plugins' -> '/root/.config/QQ/NapCat/temp/423d0b29-bd2e-452d-ad6c-4c314110a9f8'
+[2025-11-29 10:56:03,196.196] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 10:56:05,118.118] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 10:56:05,118.118] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 10:56:05,123.123] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 10:56:06,099.099] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 10:56:06,101.101] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 10:56:06,107.107] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 10:56:06,109.109] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 10:56:06,233.233] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 10:56:06,287.287] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 10:56:06,289.289] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 10:56:10,514.514] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 14:49:24,331.331] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 14:54:57,469.469] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 14:54:57,470.470] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 14:54:57,474.474] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 14:54:58,249.249] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 14:54:58,250.250] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 14:54:58,254.254] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 14:54:58,255.255] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 14:54:58,339.339] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 14:54:58,387.387] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 14:54:58,387.387] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 14:55:02,481.481] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 14:55:14,187.187] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 15:08:18,937.937] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 15:08:18,938.938] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 15:08:18,944.944] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 15:08:20,144.144] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 15:08:20,145.145] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 15:08:20,150.150] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 15:08:20,151.151] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 15:08:20,213.213] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 15:08:20,267.267] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 15:08:20,269.269] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 15:08:31,555.555] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 15:08:50,650.650] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-36' coro=<poke_notice() done, defined at /mnt/d/bot/lin/main.py:130> exception=TypeError('list indices must be integers or slices, not str')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/main.py", line 137, in poke_notice
+    await  bot.api.post_group_msg(event.group_id, text=event.raw_info["text"])
+TypeError: list indices must be integers or slices, not str
+[2025-11-29 15:14:54,202.202] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 15:14:54,207.207] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 15:14:54,208.208] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 15:14:54,213.213] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 15:14:55,952.952] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 15:14:55,952.952] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 15:14:55,957.957] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 15:14:56,770.770] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 15:14:56,771.771] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 15:14:56,774.774] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 15:14:56,775.775] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 15:14:56,852.852] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 15:14:56,903.903] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 15:14:56,905.905] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 15:15:00,147.147] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-19' coro=<poke_notice() done, defined at /mnt/d/bot/lin/main.py:130> exception=AttributeError("module 'random' has no attribute 'randomint'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/main.py", line 138, in poke_notice
+    await  bot.api.post_group_msg(event.group_id, text=poke_msg_list[random.randomint(0,len(poke_msg_list)-1)])
+AttributeError: module 'random' has no attribute 'randomint'
+[2025-11-29 15:15:17,778.778] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 15:15:17,786.786] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 15:15:17,788.788] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 15:15:17,801.801] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 15:15:19,650.650] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 15:15:19,650.650] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 15:15:19,656.656] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 15:15:19,297.297] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 15:15:19,298.298] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 15:15:19,302.302] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 15:15:19,303.303] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 15:15:19,374.374] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 15:15:19,427.427] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 15:15:19,428.428] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 15:17:24,123.123] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 15:17:24,138.138] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 15:17:24,140.140] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 15:17:24,150.150] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 15:17:24,488.488] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 15:17:24,489.489] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 15:17:24,493.493] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 15:17:25,317.317] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 15:17:25,318.318] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 15:17:25,321.321] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 15:17:25,323.323] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 15:17:25,399.399] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 15:17:25,453.453] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 15:17:25,454.454] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 15:19:56,764.764] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 15:19:56,780.780] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 15:19:56,782.782] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 15:19:56,796.796] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:45:16,550.550] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:45:16,551.551] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:45:16,553.553] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:45:17,145.145] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:45:17,145.145] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:45:17,148.148] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:45:17,149.149] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:45:17,195.195] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 16:45:17,220.220] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 16:45:18,780.780] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 16:45:19,803.803] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-11-29 16:45:19,805.805] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:45:19,806.806] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:47:13,378.378] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:47:48,173.173] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:47:48,190.190] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:47:48,192.192] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:47:48,205.205] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:47:49,484.484] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:47:49,485.485] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:47:49,488.488] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:47:49,971.971] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:47:49,972.972] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:47:49,974.974] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:47:49,974.974] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:47:50,019.019] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:47:50,068.068] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:47:50,069.069] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:47:56,360.360] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-22' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=KeyError('touhou')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 105, in random_image
+    if keyword in  msg.raw_message.replace("随机","") and config[msg.group_id][keyword]:
+KeyError: 'touhou'
+[2025-11-29 16:47:56,375.375] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:49:51,732.732] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:49:51,747.747] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:49:51,747.747] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:49:51,756.756] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:49:53,134.134] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:49:53,134.134] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:49:53,137.137] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:49:53,625.625] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:49:53,626.626] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:49:53,628.628] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:49:53,629.629] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:49:53,695.695] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:49:53,747.747] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:49:53,748.748] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:50:02,805.805] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:50:19,574.574] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=KeyError('touhou')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 97, in setting_by_group
+    print(print_config(msg.group_id))
+  File "/mnt/d/bot/lin/main.py", line 42, in print_config
+    text=text+config_to_show[key]
+KeyError: 'touhou'
+[2025-11-29 16:50:47,316.316] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:50:48,479.479] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:50:48,480.480] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:50:48,484.484] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:50:48,948.948] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:50:48,948.948] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:50:48,950.950] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:50:48,951.951] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:50:48,995.995] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:50:49,044.044] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:50:49,045.045] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:50:55,652.652] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:51:07,291.291] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:51:07,298.298] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:51:07,299.299] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:51:07,304.304] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:51:06,657.657] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:51:06,657.657] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:51:06,660.660] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:51:07,135.135] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:51:07,135.135] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:51:07,137.137] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:51:07,138.138] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:51:07,178.178] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:51:07,226.226] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:51:07,227.227] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:51:16,807.807] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:51:58,676.676] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:51:58,677.677] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:51:58,681.681] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:51:59,436.436] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:51:59,437.437] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:51:59,442.442] INFO     [Thread-7 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:51:59,444.444] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:51:59,515.515] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:51:59,570.570] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:51:59,571.571] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:53:04,500.500] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:53:04,509.509] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:53:04,509.509] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:53:04,515.515] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:53:05,712.712] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:53:05,712.712] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:53:05,715.715] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:53:06,185.185] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:53:06,185.185] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:53:06,187.187] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:53:06,188.188] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:53:06,232.232] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:53:06,281.281] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:53:06,283.283] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:53:10,102.102] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:55:08,623.623] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:55:08,629.629] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:55:08,630.630] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:55:08,635.635] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:55:09,916.916] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:55:09,916.916] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:55:09,919.919] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:55:10,390.390] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:55:10,390.390] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:55:10,393.393] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:55:10,393.393] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:55:10,438.438] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:55:10,488.488] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:55:10,489.489] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:55:42,277.277] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:55:42,282.282] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:55:42,283.283] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:55:42,290.290] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:55:43,509.509] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:55:43,510.510] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:55:43,512.512] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:55:44,000.000] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:55:44,001.001] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:55:44,004.004] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:55:44,005.005] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:55:44,051.051] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:55:44,105.105] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:55:44,106.106] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:56:05,504.504] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 16:56:42,473.473] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 16:56:42,480.480] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 16:56:42,480.480] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 16:56:42,485.485] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 16:56:41,898.898] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 16:56:41,898.898] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 16:56:41,901.901] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 16:56:42,418.418] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 16:56:42,419.419] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 16:56:42,421.421] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 16:56:42,421.421] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 16:56:42,465.465] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 16:56:42,517.517] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 16:56:42,518.518] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 16:56:47,693.693] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 17:02:13,260.260] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 17:02:13,277.277] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 17:02:13,279.279] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 17:02:13,288.288] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 17:05:27,477.477] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 17:05:27,478.478] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 17:05:27,480.480] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 17:05:27,950.950] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 17:05:27,950.950] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 17:05:27,953.953] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 17:05:27,953.953] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 17:05:27,996.996] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 17:05:28,047.047] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 17:05:28,048.048] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 17:05:49,253.253] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 17:09:17,335.335] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/f340acbb-dede-4b12-8e20-80e693ae9c06'
+[2025-11-29 17:09:17,336.336] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-140' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/f340acbb-dede-4b12-8e20-80e693ae9c06'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 121, in download_video
+    await bot.api.post_group_array_msg(msg.group_id, vs)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/f340acbb-dede-4b12-8e20-80e693ae9c06'
+[2025-11-29 17:10:22,653.653] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-177' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:14:02,441.441] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-294' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:14:33,803.803] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-311' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:14:47,260.260] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-343' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:20:02,814.814] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-431' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:26:33,452.452] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-492' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:26:42,331.331] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-508' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:27:20,641.641] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-541' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:32:18,508.508] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-668' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:38:18,898.898] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-728' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:40:14,715.715] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-772' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:40:38,417.417] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-781' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:40:41,336.336] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-789' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:42:08,449.449] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/ed96e9cf-0ccc-4e09-b160-3590ffe71a56'
+[2025-11-29 17:42:08,454.454] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-836' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError("EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/ed96e9cf-0ccc-4e09-b160-3590ffe71a56'")>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 121, in download_video
+    await bot.api.post_group_array_msg(msg.group_id, vs)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: EISDIR: illegal operation on a directory, copyfile '/mnt/d/bot/lin' -> '/root/.config/QQ/NapCat/temp/ed96e9cf-0ccc-4e09-b160-3590ffe71a56'
+[2025-11-29 17:47:15,608.608] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1009' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 97, in setting_by_group
+    if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
+IndexError: list index out of range
+[2025-11-29 17:47:18,695.695] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1015' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:47:31,073.073] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1040' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:48:01,365.365] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1065' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:48:05,418.418] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1075' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 97, in setting_by_group
+    if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
+IndexError: list index out of range
+[2025-11-29 17:49:28,391.391] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1140' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:49:41,553.553] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1149' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 17:54:26,706.706] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1303' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:04:09,626.626] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1635' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:05:07,319.319] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1661' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:06:20,773.773] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1696' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:06:37,478.478] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1736' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:07:19,824.824] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1778' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:07:44,967.967] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1795' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:08:42,671.671] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1829' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:08:52,391.391] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1845' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:14:29,278.278] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1905' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:20:58,254.254] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-1983' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:21:54,767.767] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2001' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:22:17,435.435] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2018' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:23:03,851.851] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2056' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:25:52,483.483] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2202' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:25:56,397.397] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2210' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:26:13,416.416] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2226' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:27:30,680.680] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2301' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:27:31,865.865] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2317' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:27:57,904.904] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2350' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:28:10,797.797] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2374' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:28:40,496.496] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2391' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:29:21,354.354] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2425' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:29,624.624] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2443' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:33,098.098] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2452' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:33,167.167] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2460' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:33,830.830] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2468' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:34,051.051] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2476' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:34,715.715] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2484' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:34,867.867] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2492' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:35,182.182] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2500' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:35,567.567] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2508' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:30:36,157.157] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2516' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:31:53,037.037] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2558' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:31:59,129.129] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2567' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:32:12,605.605] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2575' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:32:20,967.967] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2587' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:37:26,889.889] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2622' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:52:55,288.288] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2671' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:53:51,084.084] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2705' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:54:44,370.370] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2715' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 18:54:56,661.661] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2724' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:01:05,506.506] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2773' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:03:04,731.731] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2825' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:06:50,935.935] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2873' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:07:43,796.796] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2915' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:10:07,051.051] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2928' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:16:30,748.748] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2950' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:22:21,760.760] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-2987' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:29:28,416.416] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3090' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:29:29,410.410] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3098' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:29:30,614.614] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3106' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:29:37,866.866] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3114' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:34:35,780.780] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3237' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:37:55,638.638] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3332' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:38:09,062.062] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3341' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:39:00,305.305] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3399' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:41:26,725.725] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3480' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:41:50,946.946] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3505' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:42:36,741.741] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3546' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:42:40,325.325] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-3554' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:44:12,866.866] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 19:44:14,147.147] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 19:44:14,147.147] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 19:44:14,150.150] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 19:44:14,641.641] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 19:44:14,642.642] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 19:44:14,644.644] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 19:44:14,645.645] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 19:44:14,689.689] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 19:44:14,745.745] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 19:44:14,746.746] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 19:44:25,688.688] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 19:45:13,658.658] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-61' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:45:14,471.471] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-69' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:45:56,076.076] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-126' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:46:31,229.229] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-144' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:46:45,357.357] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-152' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:50:01,556.556] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-199' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:50:21,869.869] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-224' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:50:23,637.637] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-232' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:50:35,156.156] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-264' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 19:51:00,444.444] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-289' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:06:28,373.373] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 20:18:22,247.247] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 20:18:22,248.248] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 20:18:22,250.250] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 20:18:22,739.739] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 20:18:22,740.740] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 20:18:22,745.745] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 20:18:22,746.746] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 20:18:22,793.793] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 20:18:22,844.844] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 20:18:22,845.845] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 20:19:02,467.467] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 20:19:45,524.524] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-54' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:20:02,475.475] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-71' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:21:16,616.616] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 20:21:26,495.495] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 20:21:26,495.495] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 20:21:26,498.498] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 20:21:26,989.989] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 20:21:26,990.990] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 20:21:26,992.992] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 20:21:26,992.992] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 20:21:27,035.035] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 20:21:27,085.085] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 20:21:27,086.086] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 20:21:29,706.706] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 20:21:29,724.724] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 20:21:29,727.727] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 20:21:29,735.735] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 20:21:36,008.008] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 20:21:36,008.008] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 20:21:36,011.011] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 20:21:36,494.494] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 20:21:36,494.494] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 20:21:36,497.497] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 20:21:36,497.497] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 20:21:36,542.542] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 20:21:36,593.593] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 20:21:36,595.595] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 20:21:48,450.450] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 20:25:17,310.310] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-43' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:25:35,872.872] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-52' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:28:01,989.989] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-65' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:29:09,424.424] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-107' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:46:53,049.049] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-161' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:46:53,864.864] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-169' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:53:58,065.065] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-201' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:55:01,719.719] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-227' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:58:14,295.295] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-242' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 20:58:36,054.054] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-258' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 82, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 22:22:40,107.107] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 22:22:42,249.249] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 22:22:42,249.249] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 22:22:42,252.252] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 22:22:40,870.870] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 22:22:40,871.871] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 22:22:40,873.873] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 22:22:40,874.874] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 22:22:40,918.918] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 22:22:40,974.974] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 22:22:40,976.976] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 22:22:58,704.704] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-20' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=TypeError('time.sleep() takes exactly one argument (0 given)')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 93, in help_info
+    time.sleep()
+TypeError: time.sleep() takes exactly one argument (0 given)
+[2025-11-29 22:22:58,713.713] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 22:23:14,177.177] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接已关闭
+[2025-11-29 22:23:14,184.184] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 SystemManager 卸载成功
+[2025-11-29 22:23:14,184.184] INFO     [MainThread|MainProcess] ncatbot.plugin_system (logger.py:info:129) | 插件 UnifiedRegistryPlugin 卸载成功
+[2025-11-29 22:23:14,189.189] INFO     [MainThread|MainProcess] Client (logger.py:info:129) | Bot 已经正常退出
+[2025-11-29 22:23:16,031.031] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 22:23:16,031.031] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 22:23:16,034.034] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 22:23:16,494.494] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 22:23:16,494.494] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 22:23:16,497.497] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 22:23:16,497.497] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 22:23:16,537.537] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | napcat 服务器 ws://localhost:8095 在线, 正在检查账号状态...
+[2025-11-29 22:23:16,590.590] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 22:23:16,591.591] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 22:23:18,943.943] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 22:46:27,355.355] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 22:46:27,355.355] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 22:46:27,358.358] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 22:46:27,870.870] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 22:46:27,870.870] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 22:46:27,873.873] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 22:46:27,873.873] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 22:46:27,914.914] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 22:46:27,945.945] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 22:46:29,508.508] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 22:46:28,870.870] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-11-29 22:46:28,871.871] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 22:46:28,872.872] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 22:46:51,585.585] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 23:26:47,856.856] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 23:26:47,857.857] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 23:26:47,860.860] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 23:26:48,367.367] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 23:26:48,368.368] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 23:26:48,371.371] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 23:26:48,372.372] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 23:26:48,421.421] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 23:26:48,450.450] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 23:26:50,059.059] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 23:26:51,101.101] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-11-29 23:26:51,103.103] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 23:26:51,104.104] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 23:27:02,297.297] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 23:28:08,075.075] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-42' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 83, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 23:32:10,015.015] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-11-29 23:32:10,016.016] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-11-29 23:32:10,018.018] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-11-29 23:32:10,427.427] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-11-29 23:32:10,427.427] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-11-29 23:32:10,429.429] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-11-29 23:32:10,430.430] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-11-29 23:32:10,465.465] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-11-29 23:32:10,489.489] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-11-29 23:32:12,050.050] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-11-29 23:32:13,059.059] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-11-29 23:32:13,061.061] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-11-29 23:32:13,062.062] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-11-29 23:32:35,107.107] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-11-29 23:45:05,866.866] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-98' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 83, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range
+[2025-11-29 23:45:59,955.955] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-108' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 83, in debug_by_group_msg
+    ms = MessageArray(msg.message.filter(Text)[0])
+IndexError: list index out of range

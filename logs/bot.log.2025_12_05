@@ -1,0 +1,31 @@
+[2025-12-05 19:08:48,260.260] WARNING  [MainThread|MainProcess] Config (logger.py:warning:139) | 未设置 root QQ 号，某些权限功能可能无法正常工作
+[2025-12-05 19:08:48,265.265] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | [BOTQQ]: 2368017024 | [WSURI]: ws://localhost:8095 | [WS_TOKEN]: NcatBot | [ROOT]: 123456 | [WEBUI]: http://localhost:6070 | [WEBUI_TOKEN]: nwX#u.^vNG&Hlm6-
+[2025-12-05 19:08:48,269.269] INFO     [MainThread|MainProcess] Config (logger.py:info:129) | 配置已保存到 /mnt/d/bot/lin/config.yaml
+[2025-12-05 19:08:48,823.823] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载内置插件数 [2]
+[2025-12-05 19:08:48,824.824] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 从 /mnt/d/bot/lin/plugins 导入插件
+[2025-12-05 19:08:48,827.827] INFO     [Thread-2 (runner)|MainProcess] PluginLoader (logger.py:info:129) | 已加载插件数 [2]
+[2025-12-05 19:08:48,828.828] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 正在以本地模式运行, 检查中...
+[2025-12-05 19:08:48,872.872] WARNING  [Thread-4 (runner)|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:warning:139) | 测试 websocket 连接失败: [Errno 111] Connect call failed ('127.0.0.1', 8095)
+[2025-12-05 19:08:57,139.139] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | 正在启动 NapCat 服务
+[2025-12-05 19:08:58,713.713] INFO     [MainThread|MainProcess] adapter.nc.start (logger.py:info:129) | napcat 启动成功
+[2025-12-05 19:09:01,231.231] INFO     [MainThread|MainProcess] ncatbot.core.adapter.nc.launch (logger.py:info:129) | 快速登录成功, 跳过登录引导
+[2025-12-05 19:09:01,232.232] INFO     [MainThread|MainProcess] Adapter (logger.py:info:129) | NapCat WebSocket 连接成功
+[2025-12-05 19:09:01,233.233] INFO     [asyncio_0|MainProcess] Client (logger.py:info:129) | Bot 2368017024 启动成功
+[2025-12-05 19:14:45,069.069] INFO     [MainThread|MainProcess] ncatbot.plugin_system.builtin_plugin.unified_registry.plugin (logger.py:info:129) | 命令前缀集合: ['/', '!']
+[2025-12-05 21:30:30,066.066] ERROR    [MainThread|MainProcess] API (logger.py:error:134) | NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
+[2025-12-05 21:30:30,068.068] ERROR    [MainThread|MainProcess] asyncio (base_events.py:default_exception_handler:1758) | Task exception was never retrieved
+future: <Task finished name='Task-648' coro=<BotClient.add_group_message_handler.<locals>.wrapper() done, defined at /mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py:154> exception=NapCatAPIError('消息体无法解析, 请检查是否发送了不支持的消息类型')>
+Traceback (most recent call last):
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/client.py", line 159, in wrapper
+    await handler(event)
+  File "/mnt/d/bot/lin/main.py", line 152, in download_video
+    await bot.api.post_group_msg(msg.group_id,text=title)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 83, in post_group_msg
+    return await self.post_group_array_msg(group_id, msg_array)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/api_message.py", line 48, in post_group_array_msg
+    status = MessageAPIReturnStatus(result)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 45, in __init__
+    self.raise_if_failed(data)
+  File "/mnt/d/bot/lin/.ncatbot/lib/python3.10/site-packages/ncatbot/core/api/utils.py", line 42, in raise_if_failed
+    raise NapCatAPIError(data.get("message"))
+ncatbot.core.api.utils.NapCatAPIError: 消息体无法解析, 请检查是否发送了不支持的消息类型
