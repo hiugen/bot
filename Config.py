@@ -46,13 +46,14 @@ class Config:
         text =text[:-1]
         return text
     
+    
     #每个config的fun都要用
     #用于判断群是否第一次出现
     def detect_gruop_id(self, msg: GroupMessage):
         if msg.group_id not in self.config["groups_id"]:
+            #每个群的配置
+            #和config_to_show关键字一致
             self.config[str(msg.group_id)]={     
-                #每个群的配置
-                #和config_to_show关键字一致
                 "pjsk":True,
                 "downloadbv":True,
                 "info_bvideo_words": 70,
@@ -63,3 +64,8 @@ class Config:
             #更新配置
             with open(self.config_json_path, "w") as f:
                 f.write(json.dumps(self.config, indent=4))
+
+    def __getitem__(self,key):
+         return self.config[key]
+    def __setitem__(self, key, val):
+        self.config[key]=val
