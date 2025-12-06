@@ -16,7 +16,7 @@ BotName = 'ATRI'
 BotQQ = '2368017024'
 
 config_to_show={    # 方便打印 
-    "pjsk":"是否开启pjsk图:  ",
+    "pjsk":"是否开启pjsk图:     ",
     "info_bvideo_words": "简介字数:  ",
     "touhou":"是否开启随机东方图:  ",
     "ATRI": "是否开启ATRI图:  "
