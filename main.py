@@ -2,7 +2,7 @@ import time
 from ncatbot.core import BotClient, NoticeEvent, GroupMessage
 from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Json
 import loadimage, bilibili
-import os, json, random
+import os, json, random, Config
 
 
 rootDir = os.getcwd()

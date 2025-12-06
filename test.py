@@ -5,7 +5,7 @@ client = Client(
     headers={'x-some-header': 'some-value'}
 )
 
-response = client.chat(model='qwen3', messages=[
+response = client.chat(model='qwen3:4b', messages=[
     {
         'role': 'user',
         'content': '你是谁?',
