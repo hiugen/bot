@@ -6,38 +6,31 @@ import os, json, random, Config
 
 
 rootDir = os.getcwd()
-config_json_path = os.path.join(rootDir, "config.json")
-
-
 messageList=[]
 
 bot = BotClient()
 BotName = 'ATRI'
 BotQQ = '2368017024'
 
-config_to_show={    # 方便打印 
-    "pjsk":"是否开启pjsk图:     ",
-    "info_bvideo_words": "简介字数:  ",
-    "touhou":"是否开启随机东方图:  ",
-    "ATRI": "是否开启ATRI图:  "
-
-}
-
-
-
-
 config = Config.Config()
 
 @bot.on_group_message()
 async def update_msg_lis(msg: GroupMessage):
+    
     if len(messageList) > 70: #最大存储信息数:
-        pass
+        messageList.pop(0)
+        messageList.append(msg)
+    else:
+        messageList.append(msg)
 
 
 @bot.on_group_message()
 async def debug_by_group_msg(msg: GroupMessage):
         print(msg.message)
         print(msg.message_id)
+        if "list" in msg.raw_message:
+            for i in messageList:
+                await bot.api.post_group_array_msg("348244932", i.message)
         #ms = msg.message
         #await bot.api.post_group_array_msg("348244932", ms)
 
@@ -60,6 +53,20 @@ async def setting_by_group(msg: GroupMessage):
     if "设置" in msg_text and msg.message.filter(At)[0].qq==BotQQ and not msg_text.replace("设置",""):
         print(config.output(msg.group_id))
         await bot.api.post_group_msg( msg.group_id,text=config.output(msg.group_id))
+    if msg.message.filter(At)[0].qq==BotQQ:
+        for key, keyword in config.config_to_show.items():
+            keyword : str= keyword.replace(":","").replace(" ", "")
+            if keyword not in  msg.message.filter(Text)[0].text:
+                continue
+            change =  msg.message.filter(Text)[0].text.replace(" ", "").replace("=","").replace(keyword, "")
+            if type(config[msg.group_id][key])==int:
+                config[msg.group_id][key]= int(change)
+            elif type(config[msg.group_id][key])==bool:
+                if change=='是' :
+                    config[msg.group_id][key]=True
+                elif change=='否':
+                    config[msg.group_id][key]=False
+
 
 @bot.on_group_message()
 async def random_image(msg: GroupMessage):
