@@ -81,8 +81,14 @@ async def single_chat(msg: GroupMessage):
         config[msg.group_id]["chat_target"]=msg.user_id
     elif msg_text=='结束' and msg.message.filter(At)[0].qq==BotQQ :
         config[msg.group_id]["chat_target"]=''
-    elif config[msg.group_id]["chat_target"] == msg.user_id:
-        await bot.api.post_group_msg( msg.group_id,text=myollama.chat_with(config[msg.group_id]["chat_target"],messageList))
+    if msg.message.filter(At):
+        return
+    if config[msg.group_id]["chat_target"] == msg.user_id:
+        rpe_text = myollama.chat_with(config[msg.group_id]["chat_target"],messageList)
+        msg.message= MessageArray(Text(rpe_text))
+        msg.user_id = BotQQ
+        messageList.append(msg)
+        await bot.api.post_group_msg( msg.group_id,text=rpe_text)
 
 @bot.on_group_message()
 async def random_image(msg: GroupMessage):
