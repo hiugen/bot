@@ -5,8 +5,8 @@ from ncatbot.core import GroupMessage
 rootDir = os.getcwd()
 class Config:
     def __init__(self):
-        self.cofig_json_path = os.path.join(rootDir, "config.json")
-        self.cofig={
+        self.config_json_path = os.path.join(rootDir, "config.json")
+        self.config={
             "inited": False,
             "images_path": {"pjsk":"image1","touhou":"image2","ATRI":"image3"}, 
             "groups_id": []
@@ -15,12 +15,14 @@ class Config:
             "pjsk":"是否开启pjsk图:     ",
             "info_bvideo_words": "简介字数:  ",
             "touhou":"是否开启随机东方图:  ",
-            "ATRI": "是否开启ATRI图:  "
+            "ATRI": "是否开启ATRI图:  ",
+            "msgListLen":"AI最大保存对话数: ",
+            "chat_target":"对话对象: "
         }
-        if not os.path.exists(self.cofig_json_path):
-            with open(self.cofig_json_path, "w") as f:
+        if not os.path.exists(self.config_json_path):
+            with open(self.config_json_path, "w") as f:
                 f.write(json.dumps(self.config, indent=4))
-        with open(self.cofig_json_path, "r") as f:
+        with open(self.config_json_path, "r") as f:
             self.config = json.load(f)
         print("config:", self.config)
     
@@ -34,7 +36,8 @@ class Config:
                 "info_bvideo_words": 70,
                 "touhou":True,
                 "ATRI":True,
-                
+                "msgListLen":70,
+                "chat_target":""
             }
             self.config["groups_id"].append(msg.group_id)
             #更新配置
@@ -58,6 +61,8 @@ class Config:
                         text+="否"
             elif type(self.config[str(group_id)][key])==int:
                     text+=str(self.config[str(group_id)][key])
+            elif type(self.config[str(group_id)][key])==str:
+                 text+=self.config[str(group_id)][key]
             #结束换行
             text+="\n"
         text =text[:-1]

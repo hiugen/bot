@@ -1,12 +1,16 @@
 import time
+from typing import Dict ,List
 from ncatbot.core import BotClient, NoticeEvent, GroupMessage
 from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Json
-import loadimage, bilibili
-import os, json, random, Config
+import loadimage, bilibili, Config, myollama
+import os, json, random
+from ncatbot.utils import ncatbot_config
+
+ncatbot_config.napcat.report_self_message=True
 
 
 rootDir = os.getcwd()
-messageList=[]
+messageList: List[GroupMessage] =[]
 
 bot = BotClient()
 BotName = 'ATRI'
@@ -17,13 +21,12 @@ config = Config.Config()
 @bot.on_group_message()
 async def update_msg_lis(msg: GroupMessage):
     
-    if len(messageList) > 70: #最大存储信息数:
+    if len(messageList) > config[msg.group_id]["msgListLen"]: #最大存储信息数:
         messageList.pop(0)
         messageList.append(msg)
     else:
         messageList.append(msg)
-
-
+ 
 @bot.on_group_message()
 async def debug_by_group_msg(msg: GroupMessage):
         print(msg.message)
@@ -45,7 +48,7 @@ async def help_info(msg: GroupMessage):
         
 
 
-@bot.on_group_message(filter=Text)
+@bot.on_group_message(filter=At)
 async def setting_by_group(msg: GroupMessage):
     global config
     config.detect_gruop_id(msg)
@@ -66,7 +69,20 @@ async def setting_by_group(msg: GroupMessage):
                     config[msg.group_id][key]=True
                 elif change=='否':
                     config[msg.group_id][key]=False
+            elif type(config[msg.group_id][key])==str:
+                config[msg.group_id][key]= change
+            await bot.api.post_group_msg( msg.group_id,text=config.output(msg.group_id))
 
+@bot.on_group_message(filter=Text)
+async def single_chat(msg: GroupMessage):
+    global config
+    msg_text = msg.message.filter(Text)[0].text.replace(" ", "")
+    if msg_text=='对话' and msg.message.filter(At)[0].qq==BotQQ :
+        config[msg.group_id]["chat_target"]=msg.user_id
+    elif msg_text=='结束' and msg.message.filter(At)[0].qq==BotQQ :
+        config[msg.group_id]["chat_target"]=''
+    elif config[msg.group_id]["chat_target"] == msg.user_id:
+        await bot.api.post_group_msg( msg.group_id,text=myollama.chat_with(config[msg.group_id]["chat_target"],messageList))
 
 @bot.on_group_message()
 async def random_image(msg: GroupMessage):

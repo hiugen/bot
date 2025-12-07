@@ -16,7 +16,7 @@ napcat:
   check_napcat_update: false
   stop_napcat: false
   remote_mode: false
-  report_self_message: false
+  report_self_message: true
   report_forward_message_detail: true
 plugin:
   plugins_dir: plugins
