@@ -1,9 +1,9 @@
 import time
 from typing import Dict ,List
 from ncatbot.core import BotClient, NoticeEvent, GroupMessage
-from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Json
-import loadimage, bilibili, Config, myollama
-import os, json, random
+from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Json,Record
+import loadimage, bilibili, Config, myollama, audio_generator
+import os, json, random 
 from ncatbot.utils import ncatbot_config
 
 ncatbot_config.napcat.report_self_message=True
@@ -127,6 +127,14 @@ async def download_video(msg: GroupMessage):
         print(title)
         await bot.api.post_group_msg(msg.group_id,text=title)
 
+@bot.on_group_message(filter=Text)
+async def download_audio(msg: GroupMessage):
+    msg_text = msg.message.filter(Text)[0].text.replace(" ", "")
+    if "/电棍" in msg_text:
+        msg_text=msg_text.replace("/电棍","").replace(" ", "")
+        audio_path=audio_generator.generate_and_download_audio(msg_text)
+        await bot.api.post_group_array_msg(msg.group_id,MessageArray(Record(file=audio_path)))
+
 
 @bot.on_notice()
 async def poke_notice(event: NoticeEvent):
@@ -135,7 +143,6 @@ async def poke_notice(event: NoticeEvent):
     poke_msg_list=["呜哇呜哇", "又欺负我😖", "诶？",  "哔 哔 哔! 欺负机器人可是犯法的", "人家可是高性能的!"]
     if notice == 'poke' and event.is_group_event():  # 群聊戳一戳消息
         if event.target_id == event.self_id:
-            # Bot 被戳时戳回去
             await  bot.api.post_group_msg(event.group_id, text=poke_msg_list[random.randint(0,len(poke_msg_list)-1)])
 
 # ========== 启动 BotClient==========
