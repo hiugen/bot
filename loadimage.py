@@ -4,7 +4,7 @@ import random
 import imageio.v2 as imageio
 
 rootDir = os.getcwd()
-imageDirList = ["image1","image2","image3"]
+imageDirList = ["image1","image2","image3","foodimage"]
 
 def init():
     global imageDirList

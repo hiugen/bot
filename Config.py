@@ -8,7 +8,7 @@ class Config:
         self.config_json_path = os.path.join(rootDir, "config.json")
         self.config={
             "inited": False,
-            "images_path": {"pjsk":"image1","touhou":"image2","ATRI":"image3"}, 
+            "images_path": {"pjsk":"image1","touhou":"image2","ATRI":"image3","优食": "foodimage"}, 
             "groups_id": []
             }
         self.config_to_show={    # 方便打印 
@@ -36,6 +36,7 @@ class Config:
                 "info_bvideo_words": 70,
                 "touhou":True,
                 "ATRI":True,
+                "优食":True,
                 "msgListLen":70,
                 "chat_target":""
             }

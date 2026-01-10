@@ -1,8 +1,8 @@
 import time
 from typing import Dict ,List
 from ncatbot.core import BotClient, NoticeEvent, GroupMessage
-from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Json,Record
-import loadimage, bilibili, Config, myollama, audio_generator
+from ncatbot.core.event.message_segment import Video, MessageArray,Text,At,Node,Record
+import loadimage, bilibili, Config, myollama, audio_generator,myds
 import os, json, random 
 from ncatbot.utils import ncatbot_config
 
@@ -84,7 +84,7 @@ async def single_chat(msg: GroupMessage):
     if msg.message.filter(At):
         return
     if config[msg.group_id]["chat_target"] == msg.user_id:
-        rpe_text = myollama.chat_with(config[msg.group_id]["chat_target"],messageList)
+        rpe_text = myds.chat_with(config[msg.group_id]["chat_target"],messageList)
         msg.message= MessageArray(Text(rpe_text))
         msg.user_id = BotQQ
         messageList.append(msg)

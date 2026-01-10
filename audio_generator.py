@@ -142,6 +142,7 @@ def generate_and_download_audio(input_text):
         print(f"发生错误: {e}")
         return None
     finally:
+        
         # 关闭浏览器
         driver.quit()
 
