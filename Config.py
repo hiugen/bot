@@ -4,10 +4,11 @@ from ncatbot.core import GroupMessage
 
 rootDir = os.getcwd()
 class Config:
-    def __init__(self):
+    def __init__(self, botqq):
         self.config_json_path = os.path.join(rootDir, "config.json")
         self.config={
             "inited": False,
+            "botQQ": botqq,
             "images_path": {"pjsk":"image1","touhou":"image2","ATRI":"image3","优食": "foodimage"}, 
             "groups_id": []
             }
@@ -17,7 +18,7 @@ class Config:
             "touhou":"是否开启随机东方图:  ",
             "ATRI": "是否开启ATRI图:  ",
             "msgListLen":"AI最大保存对话数: ",
-            "chat_target":"对话对象: "
+            "chat": "开启AI对话"
         }
         if not os.path.exists(self.config_json_path):
             with open(self.config_json_path, "w") as f:
@@ -26,7 +27,7 @@ class Config:
             self.config = json.load(f)
         print("config:", self.config)
     
-    def detect_gruop_id(self, msg: GroupMessage):
+    def update_group_config(self, msg: GroupMessage):
         if msg.group_id not in self.config["groups_id"]:
             #每个群的配置
             #和config_to_show关键字一致
@@ -37,8 +38,8 @@ class Config:
                 "touhou":True,
                 "ATRI":True,
                 "优食":True,
-                "msgListLen":70,
-                "chat_target":""
+                "msgListLen":30,
+                "chat": True,
             }
             self.config["groups_id"].append(msg.group_id)
             #更新配置
